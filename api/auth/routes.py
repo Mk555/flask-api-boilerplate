@@ -32,15 +32,6 @@ def login():
 
 
 
-
-#@blueprint.route('/test')
-#@jwt_required()
-#def test():
-#    logging.debug('🚀 Message received captain !')
-#    return jsonify({"msg": '🚀 Message received captain !'}), 200
-
-
-
 ##########################
 # TEST
 @blueprint.route('/init')
